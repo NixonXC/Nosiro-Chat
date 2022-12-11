@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.msg-one {
+    border: 1px solid #EBF6FC;
+    height: 100px;
+    width: 220px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: #EBF6FC;
+}
+.msg-one h3 {
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 2px;
+    color: rgb(11, 101, 218);
+}
+.msg-one p {
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+}
+.msg-two {
+    border: 1px solid #EBF6FC;
+    height: 100px;
+    width: 240px;
+    border-radius: 12px;
+    margin-left: 640px;
+    background: #EBF6FC;
+}
+.msg-two h3 {
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: rgb(247, 29, 0);
+}
+.msg-two p {
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+}
+.msg-three {
+    border: 1px solid #EBF6FC;
+    height: 100px;
+    width: 247px;
+    border-radius: 12px;
+    margin-left: 20px;
+    background: #EBF6FC;
+}
+.msg-three h3 {
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: rgb(11, 101, 218);
+}
+.msg-three p {
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+}
+.msg-four {
+    border: 1px solid #EBF6FC;
+    height: 100px;
+    width: 260px;
+    border-radius: 12px;
+    margin-left: 620px;
+    background: #EBF6FC;
+}
+.msg-four h3 {
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: rgb(247, 29, 0);
+}
+.msg-four p {
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+}
+.msg-five {
+    border: 1px solid #EBF6FC;
+    height: 80px;
+    width: 289px;
+    border-radius: 12px;
+    margin-left: 20px;
+    background: #EBF6FC;
+}
+.msg-five h3 {
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: rgb(11, 101, 218);
+}
+.msg-five p {
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nosiro Chat</title>
+	<link rel="icon" type="image/x-icon" href="assets/logo.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="chat.css">
+	<link rel="stylesheet" href="msg.css">
+</head>
+<body>
+	<div class="nav">
+		<div class="logo"><img src="assets/logo.png" width="50px"></div>
+		<div class="profile">
+			<h3><b>James</b></h3>
+			<img src="assets/avatar.png" width="30px">
+			<h3><i onclick="myFunction()" class="dropbtn"></i></h3>
+        </div>
+		<div class="dropdown">
+			<div id="myDropdown" class="dropdown-content">
+			  <a href="#profile">Profile</a>
+			  <a href="#account">Account</a>
+			  <a href="#support">Support</a>
+			</div>
+		  </div>
+    </div>
+	<div class="contacts">
+		<h3 id="conheading">Contacts</h3>
+		<img class="user" src="assets/avatar.png" width="45px">
+		<div class="nosiro">
+			<img src="assets/nosiro.png" width="55px">
+			<h3>Nosiro Team</h3><img id="verified" src="assets/verified.png" width="20px">
+			<p>Welcome to Nosiro Chat, click here to setup...</p>
+		</div>
+		<div class="andrew">
+			<img src="assets/andrew.png" width="55px">
+			<h3>Andrew Smith</h3>
+			<p>Hey James, can you send me the Pasta Recipe?</p>
+		</div>
+		<div class="varun">
+			<img src="assets/varun.jpg" width="55px">
+			<h3>Varun Academy</h3><img id="verified" src="assets/verified.png" width="20px">
+			<p>Dear Students, There will be full day of tuition for exams...</p>
+		</div>
+		<div class="rakesh">
+			<img src="assets/rakesh.png" width="55px">
+			<h3>Rakesh Soni</h3>
+			<p>🙏 Namaskar, Naye Saal ki hardik Shubhkamnaye.</p>
+		</div>
+		<div class="oliver">
+			<img src="assets/oliver.png" width="55px">
+			<h3>Oliver Smith</h3>
+			<p>Attachment: Oliver sent you an image at 10:20...</p>
+		</div>
+		<div class="zen">
+			<img src="assets/zen.png" width="55px">
+			<h3>Zendaya</h3>
+			<p>Hey James, are you coming to college tomorrow?</p>
+		</div>
+		<div class="kareem">
+			<img src="assets/kareem.png" width="55px">
+			<h3>Kareem</h3>
+			<p>How much marks did you get in the recent exam?</p>
+		</div>
+	</div>
+	<div class="chat">
+		<div class="groupnav">
+			<img id="grouplogo" src="assets/varun.jpg" width="55px">
+			<h3>Varun Academy</h3><img id="verified" src="assets/verified.png" width="20px">
+			<img src="assets/search.svg" class="search" alt="search">
+			<img src="assets/menu.png" class="menu" alt="menu">
+		</div>
+		<div class="msg-one">
+			<h3>Andrew</h3>
+			<p>Hello Everyone! is everything fine?</p>
+		</div>
+		<div class="msg-two">
+			<h3>You</h3>
+			<p>Hi Andrew, everything is going good!</p>
+		</div>
+		<div class="msg-three">
+			<h3>Andrew</h3>
+			<p>Hey James, can you do me a favor?</p>
+		</div>
+		<div class="msg-four">
+			<h3>You</h3>
+			<p>It would be my pleasure to help you!</p>
+		</div>
+		<div class="msg-five">
+			<h3>Andrew</h3>
+			<p>Can you send me today's notes?</p>
+		</div>
+		<div class="type">
+			<img src="assets/emoji.svg" width="38px" class="emoji">
+			<input type="text" name="message" placeholder="Messsage Varun Academy">
+			<img src="assets/attach.svg" width="38px" class="attach">
+			<img src="assets/send.svg" width="38px" class="send">
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
