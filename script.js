@@ -14,17 +14,54 @@ function myFunction() {
     }
 }
 function SendMessage() {
-  let text = document.getElementById("text").value 
-  console.log(text)
-  let message = document.createElement("div")
-  message.setAttribute("id", "user-input")
-  let heading = document.createElement("h3")
-  heading.innerHTML = "You"
-  let textarea = document.createElement("p")
-  textarea.innerHTML = text
-  message.appendChild(heading)
-  message.appendChild(textarea)
-  let area =  document.getElementById("messages")
-  area.appendChild(message)
-  document.getElementById("text").value = ""
+  if (document.getElementById("text").value == "") {
+    console.log("Nope")
+    window.alert("Please enter a message!")
+  } else {
+    let text = document.getElementById("text").value 
+    console.log(text)
+    let message = document.createElement("div")
+    message.setAttribute("id", "user-input")
+    let heading = document.createElement("h3")
+    heading.innerHTML = "You"
+    let textarea = document.createElement("p")
+    textarea.innerHTML = text
+    message.appendChild(heading)
+    message.appendChild(textarea)
+    let area =  document.getElementById("messages")
+    area.appendChild(message)
+    document.getElementById("text").value = ""
+  }
+}
+let text = document.getElementById("text") 
+text.addEventListener("keyup", ({key}) => {
+  if (key === "Enter") {
+    let text = document.getElementById("text").value 
+    console.log(text)
+    let message = document.createElement("div")
+    message.setAttribute("id", "user-input")
+    let heading = document.createElement("h3")
+    heading.innerHTML = "You"
+    let textarea = document.createElement("p")
+    textarea.innerHTML = text
+    message.appendChild(heading)
+    message.appendChild(textarea)
+    let area =  document.getElementById("messages")
+    area.appendChild(message)
+    document.getElementById("text").value = ""}
+})
+function Sendimage() {
+    let message = document.createElement("div")
+    message.setAttribute("id", "user-image")
+    let heading = document.createElement("h3")
+    heading.innerHTML = "You"
+    message.appendChild(heading)
+    let img = document.createElement("img")
+    img.src="assets/avatar.png"
+    message.appendChild(img)
+    let area =  document.getElementById("messages")
+    area.appendChild(message)
+}
+function emoji() {
+  let text = document.getElementById("text").value = "😃"
 }

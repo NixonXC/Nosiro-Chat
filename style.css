@@ -246,7 +246,7 @@ hr {
 }
 .type input {
     border: 1px solid transparent;
-    width: 665px;
+    width: 710px !important;
     margin-left: 10px !important;
     height: 45px;
     margin-top: 0px;

@@ -121,3 +121,27 @@
     font-family: 'Raleway', sans-serif;
     margin-left: 10px;
 }
+#user-image {
+    border: 1px solid #EBF6FC;
+    min-height: 50px;
+    overflow: auto;
+    border-radius: 12px;
+    max-width: 240px;
+    overflow: hidden;
+    max-height: 310px;
+    margin-top: 20px;
+    margin-left: 620px;
+    background: #EBF6FC;
+}
+#user-image img {
+    border-radius: 12px;
+    margin-left: 13px;
+    margin-top: -10px;
+    max-width: 200px;
+}
+#user-image h3 {
+    margin-left: 13px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: rgb(247, 29, 0);
+}
