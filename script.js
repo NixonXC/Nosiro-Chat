@@ -1,10 +1,6 @@
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
   }
-  
-  // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -16,4 +12,19 @@ function myFunction() {
         }
       }
     }
-  }
+}
+function SendMessage() {
+  let text = document.getElementById("text").value 
+  console.log(text)
+  let message = document.createElement("div")
+  message.setAttribute("id", "user-input")
+  let heading = document.createElement("h3")
+  heading.innerHTML = "You"
+  let textarea = document.createElement("p")
+  textarea.innerHTML = text
+  message.appendChild(heading)
+  message.appendChild(textarea)
+  let area =  document.getElementById("messages")
+  area.appendChild(message)
+  document.getElementById("text").value = ""
+}

@@ -64,38 +64,40 @@
 			<p>How much marks did you get in the recent exam?</p>
 		</div>
 	</div>
-	<div class="chat">
+	<div class="chat" id="chat">
 		<div class="groupnav">
 			<img id="grouplogo" src="assets/varun.jpg" width="55px">
 			<h3>Varun Academy</h3><img id="verified" src="assets/verified.png" width="20px">
 			<img src="assets/search.svg" class="search" alt="search">
 			<img src="assets/menu.png" class="menu" alt="menu">
 		</div>
-		<div class="msg-one">
-			<h3>Andrew</h3>
-			<p>Hello Everyone! is everything fine?</p>
-		</div>
-		<div class="msg-two">
-			<h3>You</h3>
-			<p>Hi Andrew, everything is going good!</p>
-		</div>
-		<div class="msg-three">
-			<h3>Andrew</h3>
-			<p>Hey James, can you do me a favor?</p>
-		</div>
-		<div class="msg-four">
-			<h3>You</h3>
-			<p>It would be my pleasure to help you!</p>
-		</div>
-		<div class="msg-five">
-			<h3>Andrew</h3>
-			<p>Can you send me today's notes?</p>
+		<div class="messages" id="messages">
+			<div class="msg-one">
+				<h3>Andrew</h3>
+				<p>Hello Everyone! is everything fine?</p>
+			</div>
+			<div class="msg-two">
+				<h3>You</h3>
+				<p>Hi Andrew, everything is going good!</p>
+			</div>
+			<div class="msg-three">
+				<h3>Andrew</h3>
+				<p>Hey James, can you do me a favor?</p>
+			</div>
+			<div class="msg-four">
+				<h3>You</h3>
+				<p>It would be my pleasure to help you!</p>
+			</div>
+			<div class="msg-five">
+				<h3>Andrew</h3>
+				<p>Can you send me today's notes?</p>
+			</div>
 		</div>
 		<div class="type">
 			<img src="assets/emoji.svg" width="38px" class="emoji">
-			<input type="text" name="message" placeholder="Messsage Varun Academy">
+			<input id="text" type="text" name="message" placeholder="Messsage Varun Academy">
 			<img src="assets/attach.svg" width="38px" class="attach">
-			<img src="assets/send.svg" width="38px" class="send">
+			<img onclick="SendMessage()" id="enter" src="assets/send.svg" width="38px" class="send">
 		</div>
 	</div>
 	<script src="script.js"></script>

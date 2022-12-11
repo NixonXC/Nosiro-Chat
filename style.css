@@ -137,12 +137,18 @@ hr {
     border: 1px solid rgb(216, 216, 216);
     background-color: #F7FBFE;
     margin-top: 20px;
+    overflow-x: hidden;
     margin-left: 50px;
     font-family: 'Kanit', sans-serif;
     border-radius: 4px;
 }
 .groupnav img {
     border-radius: 30px;
+}
+.messages {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 76%;
 }
 .groupnav {
     color: black;
@@ -208,17 +214,17 @@ hr {
     transition: 0.2s;
 }
 .type {
-    margin-top: 25px;
+    margin-top: 20px;
     height: 50px;
     display: inline-block;
     border-radius: 4px;
-    margin-top: 25px !important;
-    margin-left: 30px;
-    border: 1px solid rgb(138, 138, 138);
+    margin-top: 30px !important;
+    margin-left: 10px;
+    border: 1px solid rgba(185, 185, 185, 0.603);
     border-radius: 30px;
     margin-right: auto;
     background-color: whitesmoke;
-    width: 93%;
+    width: 98%;
 }
 .emoji {
     margin-left: 7px;
