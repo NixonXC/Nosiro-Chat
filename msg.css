@@ -28,7 +28,7 @@
     height: 100px;
     width: 240px;
     border-radius: 12px;
-    margin-left: 640px;
+    margin-left: 630px;
     background: #EBF6FC;
 }
 .msg-two h3 {
@@ -66,7 +66,7 @@
     height: 100px;
     width: 260px;
     border-radius: 12px;
-    margin-left: 620px;
+    margin-left: 608px;
     background: #EBF6FC;
 }
 .msg-four h3 {
@@ -103,11 +103,11 @@
     border: 1px solid #EBF6FC;
     min-height: 50px;
     overflow: auto;
-    min-width: 20px !important;
+    min-width: 30px !important;
     max-width: 260px;
     border-radius: 12px;
     margin-top: 20px;
-    margin-left: 620px;
+    margin-left: 605px;
     background: #EBF6FC;
 }
 #user-input h3 {
