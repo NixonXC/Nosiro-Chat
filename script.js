@@ -69,5 +69,11 @@ function Sendimage() {
     area.appendChild(message)
 }
 function emoji() {
-  let text = document.getElementById("text").value = "😃"
+    let message = document.createElement("div")
+    message.setAttribute("id", "user-emoji")
+    let img = document.createElement("img")
+    img.src = "emojis/smile.png"
+    message.appendChild(img)
+    let area =  document.getElementById("messages")
+    area.appendChild(message)
 }
