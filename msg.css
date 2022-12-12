@@ -127,7 +127,7 @@
     overflow: auto;
     border-radius: 12px;
     max-width: 240px;
-    overflow: hidden;
+    overflow: auto;
     max-height: 310px;
     margin-top: 20px;
     margin-left: 620px;

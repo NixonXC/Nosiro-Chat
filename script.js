@@ -31,6 +31,9 @@ function SendMessage() {
     let area =  document.getElementById("messages")
     area.appendChild(message)
     document.getElementById("text").value = ""
+    window.scrollTo(10,10)
+    var objDiv = document.getElementById("messages");
+    objDiv.scrollTop = objDiv.scrollHeight;
   }
 }
 let text = document.getElementById("text") 
@@ -49,15 +52,18 @@ text.addEventListener("keyup", ({key}) => {
     let area =  document.getElementById("messages")
     area.appendChild(message)
     document.getElementById("text").value = ""}
+    var objDiv = document.getElementById("messages");
+    objDiv.scrollTop = objDiv.scrollHeight;
 })
 function Sendimage() {
+    let url = window.prompt("Please Enter the image/gif URL.")
     let message = document.createElement("div")
     message.setAttribute("id", "user-image")
     let heading = document.createElement("h3")
     heading.innerHTML = "You"
     message.appendChild(heading)
     let img = document.createElement("img")
-    img.src="assets/avatar.png"
+    img.src = url
     message.appendChild(img)
     let area =  document.getElementById("messages")
     area.appendChild(message)
